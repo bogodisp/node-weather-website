@@ -9,7 +9,7 @@ const forecast = (long,lat,callback) =>{
         }
 
         else if(!res_error && statusCode == 200){
-            callback(undefined,"It's currently "+current.temp_c+" degrees C and it's "+current.condition.text)
+            callback(undefined,"It's currently "+current.temp_c+" degrees C and it's "+current.condition.text+" wind direction is "+current.wind_dir.toUpperCase()+" at a speed of "+current.wind_mph+" miles per hour.")
         }
 
         else 
