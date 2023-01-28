@@ -1,0 +1,10 @@
+[
+    {"geocoding" : {
+                "apikey"   : "7e824bc98e4e403eb7f67bcac061037e",
+                "provider" : "opencage",
+                "url"      : "https://api.opencagedata.com/geocode/v1/json?",
+                "lang"     : "en"
+                }
+            }
+
+]
